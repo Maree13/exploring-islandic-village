@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 70%;
+  margin: 30px auto;
+}
+
+/* DESKTOP MENU */
+
+.navigation-list_container {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .navigation-list_container {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .navigation-list_item {
+    text-decoration: none;
+    color: black;
+  }
+}
