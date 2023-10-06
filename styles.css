@@ -28,3 +28,34 @@ body {
     color: black;
   }
 }
+
+/* IMAGE */
+
+/* .image-hero_container {
+  position: relative;
+  height: 400px;
+}
+
+.hero-section_image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+
+/* HERO SECTION */
+
+.hero-section_container {
+  background-image: url('https://shorturl.at/jmX23');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hero-section_heading {
+  color: white;
+}
